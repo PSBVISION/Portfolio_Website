@@ -22,3 +22,5 @@ k.scene("main", async () => {
 })
 
 k.go("main");
+
+console.alert("Hello, Kaboom!")
