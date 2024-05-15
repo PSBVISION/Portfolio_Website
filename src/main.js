@@ -60,8 +60,11 @@ k.scene("main", async () => {
                     displayDialogue("TODO", () => (player.isInDialogue = false))
                 });
             }
-        }
+        };
+      continue;
     }
+
+    if(layer.name === "spawnpoints"){}
   }
 });
 
